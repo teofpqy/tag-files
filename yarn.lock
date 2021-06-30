@@ -2988,10 +2988,10 @@
     lodash "^4.17.15"
     path-to-regexp "1.x"
 
-"@umijs/plugin-locale@0.12.2":
-  version "0.12.2"
-  resolved "https://registry.yarnpkg.com/@umijs/plugin-locale/-/plugin-locale-0.12.2.tgz#0f86e1f3918429c9d5543976375871fc0fd479ef"
-  integrity sha512-tfbxqhN1GasyMdkggzGKDRhVeagzlMKgRM+lbrcHgSNozr5pKaCKTZnHeP8vhildrv2qL7j8prvmG02MHxXHUQ==
+"@umijs/plugin-locale@0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@umijs/plugin-locale/-/plugin-locale-0.13.0.tgz#5508441702242dcd9155af29d719392a3340533d"
+  integrity sha512-zdMaF+Eh0bbd2Ru0/kaGLpigNpvxm+UbwBw1k0xTJDdp0tPUyBb61EkQEfU7G5l0LraCKyiA0ftVpbiEQtd7pw==
   dependencies:
     "@ant-design/icons" "^4.1.0"
     "@formatjs/intl-pluralrules" "^1.5.0"
@@ -3016,12 +3016,12 @@
     "@ahooksjs/use-request" "^2.0.0"
     umi-request "^1.2.14"
 
-"@umijs/plugin-test@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/@umijs/plugin-test/download/@umijs/plugin-test-1.0.0.tgz#6438ab9619395b6dd4ffb9e3f546c6564a31dd31"
-  integrity sha1-ZDirlhk5W23U/7nj9UbGVkox3TE=
+"@umijs/plugin-test@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@umijs/plugin-test/-/plugin-test-1.0.1.tgz#a2555d78086ccbe4c497ad600543430aee9c6c80"
+  integrity sha512-0BTq+mZdQgxNypOQA/NiT924rQHydUOUKNyY/nucwpBQ7Z4yNG8/gORiLnXYGgn8u9kUKrWud7b6FY/OGfsalw==
   dependencies:
-    "@umijs/test" "^3.0.7"
+    "@umijs/test" "~3.4.25"
 
 "@umijs/preset-built-in@3.4.25":
   version "3.4.25"
@@ -3046,10 +3046,10 @@
     react-router-dom "5.2.0"
     regenerator-runtime "0.13.5"
 
-"@umijs/preset-react@^1.8.12":
-  version "1.8.12"
-  resolved "https://registry.yarnpkg.com/@umijs/preset-react/-/preset-react-1.8.12.tgz#bb8965f614e28fb5af2227a92c1703a0b2940ed2"
-  integrity sha512-sK/F8JMt+ItcmsVBbAIf88cp84khHMtIiS/pBmqZIh/872MZe+fhOgk4zXkwzB+K5NYhuPxYKVjhc367V6bOWA==
+"@umijs/preset-react@^1.8.14":
+  version "1.8.14"
+  resolved "https://registry.yarnpkg.com/@umijs/preset-react/-/preset-react-1.8.14.tgz#fbe06c0f922463e7fa83b9582b3086157893bdd7"
+  integrity sha512-U96lKcVZOAE4VV8fW8RpHpfk0MqdsD2ga6J9w+TC3/Jee3cIKae/dyEYc6PuATeMOOgv+p6TzRqJGY6j9g0mIA==
   dependencies:
     "@umijs/plugin-access" "2.4.2"
     "@umijs/plugin-analytics" "0.2.2"
@@ -3059,10 +3059,10 @@
     "@umijs/plugin-helmet" "1.1.3"
     "@umijs/plugin-initial-state" "2.3.1"
     "@umijs/plugin-layout" "0.17.1"
-    "@umijs/plugin-locale" "0.12.2"
+    "@umijs/plugin-locale" "0.13.0"
     "@umijs/plugin-model" "2.6.1"
     "@umijs/plugin-request" "2.6.0"
-    "@umijs/plugin-test" "1.0.0"
+    "@umijs/plugin-test" "1.0.1"
 
 "@umijs/renderer-mpa@3.4.25":
   version "3.4.25"
@@ -3114,7 +3114,7 @@
     "@umijs/deps" "3.4.25"
     "@umijs/utils" "3.4.25"
 
-"@umijs/test@^3.0.7", "@umijs/test@^3.4.25":
+"@umijs/test@^3.4.25", "@umijs/test@~3.4.25":
   version "3.4.25"
   resolved "https://registry.yarnpkg.com/@umijs/test/-/test-3.4.25.tgz#9df95dc25cecaee9f45cdb62a227634defb5ae87"
   integrity sha512-VfaQyvF3vkHkHROS3LYQjRvx3dwk1Lv56gfgDIHGCX2n2ARSGyaFTbXsv/QafrKENDTDp3FTcTIUG6oY6mHH2g==
